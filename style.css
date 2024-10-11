@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    color: #444;
+}
+
+.wrapper {
+    width: 620px;
+    display: flex;
+}
+
+.table tr td:first-child {
+    padding: 700;
+}
+
+.table tr td {
+    padding: .25rem;
+}
+    
+.photo {
+    border-radius: 1rem;
+}
+
+hr {
+    border: 1px solid #efefef
+}
